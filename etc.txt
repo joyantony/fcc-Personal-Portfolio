@@ -1,0 +1,20 @@
+<section class="projects">
+      <h2 class="subheading">Some of my projects while learning</h2>
+    </section>
+    <section class="projects-sub">
+      <!-- freecodecamp projects thumpnail with flex -->
+      <!-- The projects section should contain at least one element with a class of project-tile to hold a project. -->
+    </section>
+
+    <section class="contact">
+      <h2 class="subheading">Contact Info</h2>
+    </section>
+    <section class="contact-sub">
+      <!-- fontawesome icons for links -->
+      <ul>
+        <li><a href="#"><i class="fab fa-github fa-5x" id="profile-link"></i></a></li>
+        <li><a href="#"><i class="fab fa-free-code-camp fa-5x"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter fa-5x"></i></a></li>
+        <li><a href="#"><i class="fab fa-codepen fa-5x"></i></a></li>
+      </ul>
+    </section>
