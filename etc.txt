@@ -1,3 +1,9 @@
+Extra small devices (<768px): width: auto (or no width)
+Small Devices (≥768px): width: 750px. 
+Medium Devices (≥992px): width: 970px. 
+Larger Devices (≥1200px): width: 1170px
+
+
 <section class="projects">
       <h2 class="subheading">Some of my projects while learning</h2>
     </section>
