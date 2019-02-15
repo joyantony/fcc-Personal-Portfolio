@@ -20,6 +20,7 @@ body{
   background-color: rgba(127, 255, 212, .4);
   height: 70px;
   border-bottom: 1px solid rgba(232, 232, 232, .7);
+  position: fixed;
 }
 
 .logo{
@@ -63,14 +64,15 @@ body{
 }
 
 #welcome-section{
-  height: 100vh;
-  width: 100vw;
   font-weight: 400;
   display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
 }
 
 #welcome-section h1{
-  font-size: 30px;
+  font-size: 18px;
+  padding-bottom: .5rem;
 }
 
 .logo-img{
@@ -81,10 +83,10 @@ body{
 }
 
 .welcome-left{
-  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1.25rem;
 }
 
 .welcome-right{
@@ -92,6 +94,12 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quote{
+  border-left: 4px solid #ccc;
+  padding-left: .5rem;
+  color:#909090;
 }
 
 
@@ -117,6 +125,32 @@ body{
     float: left;
     display: block;
     padding-right: 1.25rem;
+  }
+
+  #welcome-section{
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #welcome-section h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .welcome-left{
+    width: 40%;
+    justify-content: flex-end;
+    padding: 0 1.875rem 0 0;
+  }
+
+  .welcome-right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote{
+    font-size: 18px;
   }
 
 }
