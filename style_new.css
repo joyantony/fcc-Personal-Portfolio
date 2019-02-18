@@ -14,7 +14,7 @@ body{
 
 .container{
   margin: 0 auto;
-  padding: 0 .625rem;
+  /* padding: 0 .625rem; */
 }
 
 .primary-nav{
@@ -68,7 +68,7 @@ body{
 #welcome-section{
   font-weight: 400;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   padding-top: 5rem;
@@ -77,7 +77,6 @@ body{
 #welcome-section h1{
   font-size: 24px;
   padding-bottom: .5rem;
-  text-align: center;
 }
 
 .logo-img{
@@ -98,11 +97,11 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 1.25rem;
 }
 
 .quote{
-  display: inline-block;
   border-left: 4px solid #ccc;
   padding-left: .5rem;
   color:#909090;
@@ -123,7 +122,7 @@ body{
 }
 
 .section-img{
-  width: 100%;
+  max-width: 100%;
   display: block;
   height: auto;
 }
@@ -134,6 +133,9 @@ body{
   padding: 1.25rem 0;
   text-align: center;
 }
+
+
+
 
 
 @media (min-width: 576px){ 
@@ -164,11 +166,11 @@ body{
 
   #welcome-section{
     flex-direction: row;
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
 
   #welcome-section h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
   }
 
@@ -179,34 +181,13 @@ body{
   }
 
   .welcome-right{
+    width: 65%;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
   }
 
   .quote{
     font-size: 18px;
-  }
-
-  .subheading{
-    font-size: 2rem;
-  }
-  
-  .sub-section{
-    display: flex;
-    flex-direction: row;
-    padding: 3rem 1rem;
-  }
-
-  .left-section{
-    display: flex;
-    width: 40%;
-    padding-right: 1.25rem;
-    align-content: center;
-  }
-
-  .right-section{
-    width: 50%;
   }
 
 }
@@ -219,14 +200,5 @@ body{
   }
 
 }
-
-
-
-
-
-
-
-
-
 
 
