@@ -167,6 +167,11 @@ body{
   padding-right: 0;
 }
 
+.fas, .fab{
+  font-size: 2rem;
+}
+
+.fa-envelope:hover,
 .fa-github:hover,
 .fa-free-code-camp:hover,
 .fa-twitter:hover,
@@ -174,6 +179,24 @@ body{
   color:#808080;
 }
 
+.main-footer{
+  background: #333;
+  padding: 2rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.copy{
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.copy a{
+  color: #fff;
+  text-decoration: none;
+}
 
 @media (min-width: 576px){ 
 
@@ -241,8 +264,16 @@ body{
     width: 50%;
   }
 
+  .fas, .fab{
+    font-size: 2.5rem;
+  }
+
+  .social-icons{
+    margin: 1rem 0;
+  }
+
   .social-icons li{
-    padding-right: 5rem;
+    padding-right: 4rem;
   }
 
   .social-icons li:last-child{
@@ -271,6 +302,11 @@ body{
   .right-section{
     width: 50%;
     margin: .5rem;
+    padding-left: 20px;
+  }
+
+  .fas, .fab{
+    font-size: 3rem;
   }
 }
 
@@ -286,7 +322,10 @@ body{
 
   .right-section{
     width: 50%;
-    margin: 0;
+  }
+
+  .social-icons{
+    margin: 3rem 0;
   }
 }
 
