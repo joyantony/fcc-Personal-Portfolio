@@ -198,6 +198,17 @@ body{
   text-decoration: none;
 }
 
+.project-tile-img{
+  width: 45%;
+  display: flex;
+}
+
+.project-tile-img img{
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
 @media (min-width: 576px){ 
 
   .primary-nav{
