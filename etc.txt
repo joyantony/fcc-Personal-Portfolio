@@ -1,7 +1,19 @@
-Extra small devices (<768px): width: auto (or no width)
+﻿Extra small devices (<768px): width: auto (or no width)
 Small Devices (≥768px): width: 750px. 
 Medium Devices (≥992px): width: 970px. 
 Larger Devices (≥1200px): width: 1170px
+
+https://drive.google.com/uc?id=1Diy8j3FBnHc73oPU-0goKWJFofbj-j2n
+https://drive.google.com/uc?id=1yYAfOIHtGM0f5Vn4uFJJ6CGjRMTMheX_
+https://drive.google.com/uc?id=1l6vark2NjhVgLU9e3WEi5pp5bAfaFSLF
+https://drive.google.com/uc?id=1NDTGpRsTnsd3MSKjklwhcSJ4Jc9pett2
+https://drive.google.com/uc?id=1aVFDa3I6Cko49d-xdqprUVNLFh5k30v_
+https://drive.google.com/uc?id=1wBcE373vmd7z-e_fcV6sBv7Dz86Tvo3r
+
+https://codepen.io/joyantony/full/QJRbRw
+https://codepen.io/joyantony/full/KbLzgN
+https://codepen.io/joyantony/full/xQxEQR
+https://codepen.io/joyantony/full/OaWwWM
 
 
 <section class="projects">
